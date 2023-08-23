@@ -29,7 +29,7 @@ const ProjectCard = ({ project }: Props) => {
         maxW={{ sm: '250px' }}
         // maxH={{ sm: '250px' }}
         minH={{ sm: '250px' }}
-        src={imageSrc}
+        // src={imageSrc}
         alt={project.name}
       />
 
