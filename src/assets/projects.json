@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Joojle Search engine",
+    "description": "The Joojle Search Engine is a project that aims to build a search engine for a specific website. The search engine will accept search queries and provide a list of links to pages containing the search terms. The system consists of three main components: the crawling and link discovery subsystem, the search engine for executing queries, and the ranking subsystem to assign importance to pages.",
+    "primaryTechnologies": ["Java", "Spring", "Maven"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "joojle.jpg",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/JavaProjects/tree/master/JoojleSearchEngine",
+    "youtubeLink": "",
+    "googlePlay": ""
+  },
+  {
+    "name": "Astro Robots Management",
+    "description": "The project involves the creation of a comprehensive application for the management and control of a diverse fleet of Astro robots in a space station setting. These robots possess individual characteristics including names, callsigns, models, and unique toolsets. The application, featuring a console-based user interface and a React-based web interface, empowers engineers to provision new robots, issue commands to active or failing units, and monitor fleet status. The development adheres to foundational principles such as clean code, SOLID design, and the implementation of relevant design patterns to ensure flexibility and accommodate potential future enhancements. The project employs Java 19 as the primary backend language, leverages Maven for structured project organization, and integrates React for building an intuitive user interface, providing a seamless experience for engineers to efficiently manage and coordinate the operations of the Astro robots.",
+    "primaryTechnologies": ["Java", "Spring", "Maven", "React"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "astro-robots.jpg",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/JavaProjects/tree/master/astro-robots",
+    "youtubeLink": "",
+    "googlePlay": ""
+  },
+  {
+    "name": "Share Recipe Book",
+    "description": "Android project development and design, This app is a collaborative recipe book You can log in as a guest and be impressed by the app, but in order to upload recipes and give comments and ratings, you must register and log in. Build the MVVM method, use Firebase to manage users and upload their content, use glide to view photos.",
+    "primaryTechnologies": ["Java", "Android", "Firebase", "Gradle"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "share-recipe.jpg",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/Share-Recipe-book",
+    "youtubeLink": "https://www.youtube.com/embed/dLGWGzSJFpE?si=Q5YHwA_TptWAEfs8",
+    "googlePlay": ""
+  },
+  {
+    "name": "Hebrew speaking clock",
+    "description": "The project entails the creation of an Android application specifically aimed at assisting elderly and visually impaired individuals. The app functions as a Hebrew-speaking clock, providing users with accurate time announcements in Hebrew without the need for an internet connection. It offers multiple activation methods, including a widget, home button integration, and direct app interaction. By catering to the unique needs of its target audience, the app enhances accessibility, convenience, and independence for users seeking a reliable and easily accessible time-telling solution.",
+    "primaryTechnologies": ["Java", "Android", "Gradle"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "speaking-clock.jpg",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "https://www.youtube.com/embed/rxXGpcUfuMQ?si=MJ2Fhs8dAPwBHyvf",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.silverhorse.speakerclock"
+  },
+  {
+    "name": "Game of Life Simulation",
+    "description": "This project is a Java implementation of Conway's Game of Life simulation. The simulation is performed on a grid of cells with a specified width and height. Each iteration generates a new generation, which is then saved as a Portable Bitmap (PBM) file. The simulation can be run using multiple threads for faster computation.",
+    "primaryTechnologies": ["Java", "Maven"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "life.gif",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/JavaProjects/tree/master/01-life/The%20Life%20Game",
+    "youtubeLink": "",
+    "googlePlay": ""
+  },
+  {
+    "name": "Computer Vision: Roundabout",
+    "description": "The purpose of the project is to count the vehicles in the traffic square from the flight of a drone, each vehicle will be marked at any given moment with its unique number and indicate the number of vehicles in the square and those waiting to enter it. Each vehicle will leave a trail of movement.",
+    "primaryTechnologies": ["Python", "NumPy"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "computer-vision.jpg",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/Python-projects-and-exercises/blob/master/Machine%20vision/CV%20Project%20Roundabout%20Aaron%20and%20Shay.ipynb",
+    "youtubeLink": "https://www.youtube.com/embed/OkT1bzTeAdA?si=ErrFLX_Yx9JGBX3B",
+    "googlePlay": ""
+  },
+  {
+    "name": "Deep Learning Project - Classification of Histopathology Images",
+    "description": "The purpose of the project: is to classify images of histopathology by using in-depth learning methods learned during the course. The system can classify images of tissue samples into 8 different categories with an accuracy of 97%.",
+    "primaryTechnologies": ["Python", "NumPy", "TensorFlow"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "deep-learnin.jpg",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/Python-projects-and-exercises/blob/master/Deep%20learning/Project/Deep_Learning_Project_Aaron_and_Shay.ipynb",
+    "youtubeLink": "",
+    "googlePlay": ""
+  },
+  {
+    "name": "Jungle Battle",
+    "description": "The project involves the development and design of an Android game using ActionScript 3 (AS3) with the Starling Game Engine. The game offers diverse gameplay modes, adjustable difficulty levels, and the option to compete against either an AI-controlled computer opponent or a live player. The primary goal is to create an engaging and interactive gaming experience, providing users with a range of choices to tailor the gameplay to their preferences. The integration of the Starling Game Engine ensures smooth graphics and performance on the Android platform, enhancing the overall quality of the gaming experience.",
+    "primaryTechnologies": [],
+    "secondaryTechnologies": ["as3", "starling"],
+    "programmingLanguages": [],
+    "mainImage": "jungle-battle.jpg",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "https://www.youtube.com/embed/pUZW21UlO5E?si=yKHUih9mAINKmwa9",
+    "googlePlay": "https://play.google.com/store/apps/details?id=air.JungleBattle"
+  },
+  {
+    "name": "Retro Media Player",
+    "description": "Project for Android course - development and design of a unique player for Android in java",
+    "primaryTechnologies": ["Java", "Android", "Gradle"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "retro-media.jpg",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "https://www.youtube.com/embed/5iEYkYyKQY4?si=GRFoDVMjPiyh8zF5",
+    "googlePlay": ""
+  },
+  {
+    "name": "Hebrew English Converter Chrome Extension",
+    "description": "This is a Chrome extension that allows users to convert selected text between Hebrew and English. It adds two options to the right-click context menu, enabling users to convert selected text to Hebrew or English with a single click.",
+    "primaryTechnologies": ["JavaScript"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "converter.png",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/Keyboard-Converter",
+    "youtubeLink": "",
+    "googlePlay": ""
+  }
+]
