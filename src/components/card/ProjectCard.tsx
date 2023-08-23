@@ -20,6 +20,8 @@ interface Props {
 }
 
 const ProjectCard = ({ project }: Props) => {
+  const imageSrc = `/assets/images/${project.mainImage}`;
+
   return (
     <Card direction={{ sm: 'row' }}>
       <Image
@@ -27,7 +29,7 @@ const ProjectCard = ({ project }: Props) => {
         maxW={{ sm: '250px' }}
         // maxH={{ sm: '250px' }}
         minH={{ sm: '250px' }}
-        src={'src/assets/images/' + project.mainImage}
+        src={imageSrc}
         alt={project.name}
       />
 
