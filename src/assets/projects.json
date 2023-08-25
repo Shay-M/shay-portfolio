@@ -118,5 +118,17 @@
     "gitRepository": "https://github.com/Shay-M/Keyboard-Converter",
     "youtubeLink": "",
     "googlePlay": ""
+  },
+  {
+    "name": "My Portfolio",
+    "description": "The project is a personal portfolio website showcasing your projects and accomplishments. It is developed using React with the code written in TypeScript. The user interface design and components are built using the Chakra-ui library, providing a visually appealing and responsive user experience.",
+    "primaryTechnologies": ["TypeScript", "React"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "favicon.ico",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "",
+    "googlePlay": ""
   }
 ]
