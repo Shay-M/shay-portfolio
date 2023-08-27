@@ -8,7 +8,7 @@ const ProjectBadgeList = ({ platforms }: Props) => {
   return (
     <HStack spacing={2} marginY={1}>
       {platforms.map((platform) => (
-        <Badge colorScheme="gray" fontSize="sm">
+        <Badge colorScheme="gray" fontSize="sm" key={platform}>
           {platform}
         </Badge>
       ))}
