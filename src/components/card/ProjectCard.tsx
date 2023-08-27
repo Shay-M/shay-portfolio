@@ -21,14 +21,15 @@ interface Props {
 
 const ProjectCard = ({ project }: Props) => {
   const imageSrc = `/assets/images/${project.mainImage}`;
-
+  // base: '200px', sm: '200px', md: '200px', lg: '200px', xl: '200px'
   return (
-    <Card direction={{ sm: 'row' }}>
+    <Card direction={{ md: 'row', sm: 'column', base: 'column' }}>
       <Image
-        objectFit="cover"
-        maxW={{ sm: '250px' }}
-        // maxH={{ sm: '250px' }}
-        minH={{ sm: '250px' }}
+        objectFit={{ base: 'cover', sm: 'contain' }}
+        // maxW={{ base: '100%', sm: '250px' }}
+        // minH={{ sm: '250px' }}
+        maxW={{ base: '100%', sm: '200px', md: '200px', lg: '250px', xl: '250px' }}
+        maxH={{ base: '300px', sm: '200px', md: '200px', lg: '250px', xl: '250px' }}
         src={imageSrc}
         alt={project.name}
       />

@@ -19,7 +19,7 @@ const CardContainer = ({ children, cardHeight }: Props) => {
       borderWidth="2px"
       // height={cardHeight}
       maxWidth="100%" // Set the maximum width
-      height={{ base: cardHeight, sm: 'auto' }}
+      height={{ lg: 'auto', sm: 'auto' }}
     >
       {children}
     </Box>

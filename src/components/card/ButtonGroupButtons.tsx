@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ButtonGroup } from '@chakra-ui/react';
+import { Button, ButtonGroup, Stack } from '@chakra-ui/react';
 import { FaGithub, FaGooglePlay, FaYoutube } from 'react-icons/fa';
 import { Project } from '../../hooks/useProjects';
 import YouTubeModal from './YouTubeModal';
@@ -24,7 +24,7 @@ const ButtonGroupButtons: React.FC<Props> = ({ project }) => {
 
   return (
     <>
-      <ButtonGroup>
+      <Stack direction={{ md: 'row', sm: 'column', base: 'column' }} align="revert">
         {project.gitRepository.length !== 0 && (
           <Button
             colorScheme="purple"
@@ -48,7 +48,7 @@ const ButtonGroupButtons: React.FC<Props> = ({ project }) => {
             GooglePlay
           </Button>
         )}
-      </ButtonGroup>
+      </Stack>
 
       <YouTubeModal
         videoUrl={project.youtubeLink}
