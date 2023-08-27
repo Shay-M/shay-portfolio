@@ -16,20 +16,16 @@ import ButtonGroupButtons from './ButtonGroupButtons';
 import ProjectBadgeList from './ProjectBadgeList';
 
 interface Props {
-  project: Project; // Change type to Project
+  project: Project;
 }
 
 const ProjectCard = ({ project }: Props) => {
   const imageSrc = `/assets/images/${project.mainImage}`;
-  // base: '200px', sm: '200px', md: '200px', lg: '200px', xl: '200px'
   return (
     <Card direction={{ md: 'row', sm: 'column', base: 'column' }}>
       <Image
         objectFit={{ base: 'cover', sm: 'contain' }}
-        // maxW={{ base: '100%', sm: '250px' }}
-        // minH={{ sm: '250px' }}
-        maxW={{ base: '100%', sm: '200px', md: '200px', lg: '250px', xl: '250px' }}
-        maxH={{ base: '300px', sm: '200px', md: '200px', lg: '250px', xl: '250px' }}
+        boxSize={{ base: '100%', sm: '200px', md: '200px', lg: '250px', xl: '250px' }}
         src={imageSrc}
         alt={project.name}
       />
