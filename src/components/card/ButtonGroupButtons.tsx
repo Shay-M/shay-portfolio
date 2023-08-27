@@ -21,21 +21,32 @@ const ButtonGroupButtons: React.FC<Props> = ({ project }) => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
+  // base: '200px', sm: '200px', md: '200px', lg: '200px', xl: '200px'
+  // <ButtonGroup size={{ base: 'sm', md: 'md', lg: 'lg', xl: 'lg' }}>
 
   return (
     <>
-      <Stack direction={{ md: 'row', sm: 'column', base: 'column' }} align="revert">
+      <Stack
+        direction={{ xl: 'row', lg: 'row', md: 'row', sm: 'column', base: 'column' }}
+        align="revert"
+      >
         {project.gitRepository.length !== 0 && (
           <Button
             colorScheme="purple"
             leftIcon={<FaGithub />}
+            size={{ base: 'sm', md: 'md', lg: 'lg', xl: 'lg' }}
             onClick={() => openLink(project.gitRepository)}
           >
             Github
           </Button>
         )}
         {project.youtubeLink.length !== 0 && (
-          <Button colorScheme="red" leftIcon={<FaYoutube />} onClick={openModal}>
+          <Button
+            colorScheme="red"
+            leftIcon={<FaYoutube />}
+            onClick={openModal}
+            size={{ base: 'sm', md: 'md', lg: 'lg', xl: 'lg' }}
+          >
             Youtube
           </Button>
         )}
@@ -43,6 +54,7 @@ const ButtonGroupButtons: React.FC<Props> = ({ project }) => {
           <Button
             colorScheme="green"
             leftIcon={<FaGooglePlay />}
+            size={{ base: 'sm', md: 'md', lg: 'lg', xl: 'lg' }}
             onClick={() => openLink(project.googlePlay)}
           >
             GooglePlay
