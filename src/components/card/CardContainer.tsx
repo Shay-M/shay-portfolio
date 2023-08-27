@@ -3,10 +3,9 @@ import { ReactNode } from 'react';
 
 interface Props {
   children: ReactNode;
-  cardHeight: string;
 }
 
-const CardContainer = ({ children, cardHeight }: Props) => {
+const CardContainer = ({ children }: Props) => {
   return (
     <Box
       transition="transform 0.3s"

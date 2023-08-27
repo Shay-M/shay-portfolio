@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, ButtonGroup, Stack } from '@chakra-ui/react';
+import { Button, Stack } from '@chakra-ui/react';
 import { FaGithub, FaGooglePlay, FaYoutube } from 'react-icons/fa';
 import { Project } from '../../hooks/useProjects';
 import YouTubeModal from './YouTubeModal';

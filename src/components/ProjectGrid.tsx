@@ -29,7 +29,7 @@ const ProjectGrid = () => {
       //   templateColumns="repeat(auto-fill, minmax(200px, 1fr)"
     >
       {projects.map((project) => (
-        <CardContainer cardHeight={'250'} key={project.name}>
+        <CardContainer key={project.name}>
           <ProjectCard project={project} />
         </CardContainer>
       ))}
