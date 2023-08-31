@@ -120,6 +120,18 @@
     "googlePlay": ""
   },
   {
+    "name": "pocket pong",
+    "description": "A modern take on the classic Pong game, offering players an exciting experience with shooting abilities and 10 diverse power-ups. Players control paddles, using shooting skills to interact with the ball and opponents. Power-ups range from freezing the ball or boosting its speed to altering paddle size and creating multi-ball chaos. The game features unique environments, With intuitive controls, responsive physics, and a blend of classic gameplay and innovative features, Pocket Pong provides a captivating and competitive gaming experience for both mobile and other platforms.",
+    "primaryTechnologies": ["Unity", "CSharp"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "pong.jpg",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7004170496615297024?compact=1",
+    "googlePlay": ""
+  },
+  {
     "name": "My Portfolio",
     "description": "The project is a personal portfolio website showcasing your projects and accomplishments. It is developed using React with the code written in TypeScript. The user interface design and components are built using the Chakra-ui library, providing a visually appealing and responsive user experience.",
     "primaryTechnologies": ["TypeScript", "React"],
