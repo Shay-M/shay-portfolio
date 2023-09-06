@@ -1,20 +1,14 @@
-import { HStack, Image, Text, VStack } from '@chakra-ui/react';
+import { Divider, HStack, Image, Text, VStack } from '@chakra-ui/react';
 import logo from '../../assets/logo-shay.svg';
 
 const NavBar = () => {
   {
-    console.log('1.1');
+    console.log('1.2');
   }
   return (
     <VStack>
       <HStack>
-        <Image src={logo} boxSize={'160px'} p={4}></Image>
-
-        <Text fontSize={'4xl'}>My Portfolio</Text>
-
-        {/* <Text fontSize={'1xl'}>
-        
-      </Text> */}
+        <Image src={logo} boxSize={'170px'} p={3}></Image>
       </HStack>
       <Text as="i" padding={'25px'}>
         Hi my name is Shay, I am a motivated and proactive B.Sc. Computer Science.
@@ -27,6 +21,8 @@ const NavBar = () => {
         <br />I am a versatile professional ready to make a positive impact in the
         technology field.
       </Text>
+      <Divider />
+      <Text fontSize={'4xl'}>My Portfolio</Text>
     </VStack>
   );
 };
