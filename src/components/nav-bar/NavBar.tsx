@@ -17,7 +17,7 @@ const NavBar = () => {
         am committed to continuous self-improvement. With expertise in:
         <br />
         Java, Spring, GIT, Python, JavaScript, C#, C++, HTML & CSS, SQL & MongoDB,
-        Dockers, Jenkins. I am well-equipped to contribute to innovative projects.
+        Dockers, Jenkins.
         <br />I am a versatile professional ready to make a positive impact in the
         technology field.
       </Text>
