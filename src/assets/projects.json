@@ -26,7 +26,7 @@
   {
     "name": "Tutti Frutti",
     "description": "Development and design of an Android game using GdScript with Godot Game Engine. A puzzle game of completing series.",
-    "primaryTechnologies": ["Python", "Android"],
+    "primaryTechnologies": ["Python", "Android", "Gradle"],
     "secondaryTechnologies": [],
     "programmingLanguages": [],
     "mainImage": "tutti-frutti.jpg",
