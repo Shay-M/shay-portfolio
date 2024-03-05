@@ -24,6 +24,18 @@
     "googlePlay": ""
   },
   {
+    "name": "Tutti Frutti",
+    "description": "Development and design of an Android game using GdScript with Godot Game Engine. A puzzle game of completing series.",
+    "primaryTechnologies": ["Python", "Android"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "tutti-frutti.jpg",
+    "secondaryImages": [],
+    "gitRepository": "",
+    "youtubeLink": "https://www.youtube.com/embed/oMvdPKbsZNo?si=JcLeo0TCnHKIZkL_",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.silverhorse.tutti_frutti"
+  },
+  {
     "name": "Share Recipe Book",
     "description": "Android project development and design, This app is a collaborative recipe book You can log in as a guest and be impressed by the app, but in order to upload recipes and give comments and ratings, you must register and log in. Build the MVVM method, use Firebase to manage users and upload their content, use glide to view photos.",
     "primaryTechnologies": ["Java", "Android", "Firebase", "Gradle"],
@@ -85,7 +97,7 @@
   },
   {
     "name": "Jungle Battle",
-    "description": "The project involves the development and design of an Android game using ActionScript 3 (AS3) with the Starling Game Engine. The game offers diverse gameplay modes, adjustable difficulty levels, and the option to compete against either an AI-controlled computer opponent or a live player. The primary goal is to create an engaging and interactive gaming experience, providing users with a range of choices to tailor the gameplay to their preferences. The integration of the Starling Game Engine ensures smooth graphics and performance on the Android platform, enhancing the overall quality of the gaming experience.",
+    "description": "Development and design of an Android game using ActionScript 3 (AS3) with the Starling Game Engine. The game offers diverse gameplay modes, adjustable difficulty levels, and the option to compete against either an AI-controlled computer opponent or a live player. The primary goal is to create an engaging and interactive gaming experience, providing users with a range of choices to tailor the gameplay to their preferences. The integration of the Starling Game Engine ensures smooth graphics and performance on the Android platform, enhancing the overall quality of the gaming experience.",
     "primaryTechnologies": [],
     "secondaryTechnologies": ["as3", "starling"],
     "programmingLanguages": [],
