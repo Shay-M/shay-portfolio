@@ -48,6 +48,18 @@
     "googlePlay": ""
   },
   {
+    "name": "Top Five Colors",
+    "description": "This project is an Android application that captures a live camera feed and analyzes it in real-time to display the five most dominant colors along with their percentages. It leverages Android's CameraX library for capturing the live feed and uses efficient image processing techniques to identify dominant colors. The application scales down images for faster processing and employs multithreading to handle different sections of the image concurrently. The UI updates dynamically to show the top five colors and their percentages, with custom binding adapters to format the text and adjust colors for readability. Key highlights include the use of Java, Android SDK, and custom utility classes for efficient image processing. This project showcases the integration of real-time processing and a dynamic UI, providing a seamless user experience.",
+    "primaryTechnologies": ["Java", "Android", "Gradle"],
+    "secondaryTechnologies": [],
+    "programmingLanguages": [],
+    "mainImage": "top-five-colors.png",
+    "secondaryImages": [],
+    "gitRepository": "https://github.com/Shay-M/TopFiveColors",
+    "youtubeLink": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.silverhorse.topfivecolors"
+  },
+  {
     "name": "Hebrew speaking clock",
     "description": "The project entails the creation of an Android application specifically aimed at assisting elderly and visually impaired individuals. The app functions as a Hebrew-speaking clock, providing users with accurate time announcements in Hebrew without the need for an internet connection. It offers multiple activation methods, including a widget, home button integration, and direct app interaction. By catering to the unique needs of its target audience, the app enhances accessibility, convenience, and independence for users seeking a reliable and easily accessible time-telling solution.",
     "primaryTechnologies": ["Java", "Android", "Gradle"],
