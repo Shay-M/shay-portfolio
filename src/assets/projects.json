@@ -108,16 +108,16 @@
     "googlePlay": ""
   },
   {
-    "name": "Jungle Battle",
-    "description": "Development and design of an Android game using ActionScript 3 (AS3) with the Starling Game Engine. The game offers diverse gameplay modes, adjustable difficulty levels, and the option to compete against either an AI-controlled computer opponent or a live player. The primary goal is to create an engaging and interactive gaming experience, providing users with a range of choices to tailor the gameplay to their preferences. The integration of the Starling Game Engine ensures smooth graphics and performance on the Android platform, enhancing the overall quality of the gaming experience.",
-    "primaryTechnologies": [],
-    "secondaryTechnologies": ["as3", "starling"],
+    "name": "Diamonds & Coals",
+    "description": "Development and design of an Android game using GDScript with Godot Engine, featuring dynamic mechanics, interactive obstacles, and an immersive player experience.",
+    "primaryTechnologies": ["Python", "Android", "Gradle"],
+    "secondaryTechnologies": [],
     "programmingLanguages": [],
-    "mainImage": "jungle-battle.jpg",
+    "mainImage": "diamonds_coals.png",
     "secondaryImages": [],
     "gitRepository": "",
-    "youtubeLink": "https://www.youtube.com/embed/pUZW21UlO5E?si=yKHUih9mAINKmwa9",
-    "googlePlay": "https://play.google.com/store/apps/details?id=air.JungleBattle"
+    "youtubeLink": "",
+    "googlePlay": "https://play.google.com/store/apps/details?id=com.silverhorse.diamond_and_coal"
   },
   {
     "name": "Retro Media Player",
